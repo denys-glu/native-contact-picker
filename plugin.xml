@@ -27,7 +27,7 @@
       <config-file target="AndroidManifest.xml" parent="/*">
           <uses-permission android:name="android.permission.READ_CONTACTS" />
       </config-file>
-      <source-file src="src/android/com/example/NativeContactPicker.java" target-dir="src/com/example/" />
+      <source-file src="src/android/com/nativeContactPicker/NativeContactPicker.java" target-dir="src/com/nativeContactPicker/" />
     </platform>
 
 </plugin>

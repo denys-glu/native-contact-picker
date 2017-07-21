@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="native-contact-picker"
-    version="0.0.6">
+    version="0.0.7">
     <name>NativeContactPicker</name>
     <description></description>
     <license>MIT</license>

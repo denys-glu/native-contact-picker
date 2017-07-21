@@ -41,7 +41,7 @@ public class NativeContactPicker extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
 
         Context context = cordova.getActivity().getApplicationContext();
-        if (action.equals("parseLastNineDigits")) {
+        if (action.equals("pickContact")) {
             callback = callbackContext;
             this.openNewActivity(context, callbackContext);
 

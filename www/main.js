@@ -5,8 +5,8 @@ var PLUGIN_NAME = 'NativeContactPicker';
 
 var NativeContactPicker = {
 
-  parseLastNineDigits: function(number, cb) {
-    exec(cb, null, PLUGIN_NAME, 'parseLastNineDigits', []);
+  pickContact: function(cb) {
+    exec(cb, null, PLUGIN_NAME, 'pickContact', []);
   }
 
 };

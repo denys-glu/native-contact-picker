@@ -9,7 +9,7 @@ cordova plugin add native-contact-picker
 ```
 How to use plugin:
 ```
-window.NativeContactPicker.parseLastNineDigits(function(e) {
+window.NativeContactPicker.pickContact(function(e) {
   console.log("parseLastNineDigits: ", e);
 });
 ```

@@ -6,7 +6,7 @@
     "id": "native-contact-picker",
     "platforms": [
       "android",
-      "ios",
+      "ios"
     ]
   },
   "repository": {

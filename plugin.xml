@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="my-cordova-plugin"
+    id="native-contact-picker"
     version="1.0.0">
     <name>NativeContactPicker</name>
     <description></description>

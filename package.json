@@ -1,0 +1,24 @@
+{
+  "name": "native-contact-picker",
+  "version": "0.0.1",
+  "description": "This plugin call a native Contact book, and returns a choosen number",
+  "cordova": {
+    "id": "native-contact-picker",
+    "platforms": [
+      "android",
+      "ios",
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oggyman/native-contact-picker"
+  },
+  "keywords": [
+    "cordova",
+    "contacts",
+    "ecosystem:cordova",
+    "native",
+    "android"
+  ],
+  "author": "https://github.com/droidcrib/ && https://github.com/oggyman/"
+}

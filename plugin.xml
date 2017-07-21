@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="my-cordova-plugin"
+    version="1.0.0">
+    <name>NativeContactPicker</name>
+    <description></description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/oggyman/native-contact-picker.git</repo>
+    <issue>https://github.com/oggyman/native-contact-picker/issues</issue>
+
+    <!-- android -->
+    <platform name="android">
+      <js-module src="www/main.js" name="plugin">
+        <runs/>
+
+        <!-- This is the window variable name you want, like window.MyCordovaPlugin -->
+        <clobbers target="NativeContactPicker" />
+      </js-module>
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="NativeContactPicker">
+          <param name="android-package" value="com.plugin.NativeContactPicker" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+      <config-file target="AndroidManifest.xml" parent="/*">
+          <uses-permission android:name="android.permission.READ_CONTACTS" />
+      </config-file>
+      <source-file src="src/android/com/example/NativeContactPicker.java" target-dir="src/com/example/" />
+    </platform>
+
+</plugin>

@@ -1,6 +1,6 @@
 {
   "name": "native-contact-picker",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "This plugin call a native Contact book, and returns a choosen number",
   "cordova": {
     "id": "native-contact-picker",

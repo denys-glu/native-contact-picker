@@ -1,4 +1,4 @@
-Cordova Plugin Template
+Cordova Native Contact Picker for Android
 ======
 
-This is a simple starting point for building a Cordova plugin on iOS and Android.
+This plugin puropse is to use native android contact book to pick phone numbers from your contact book
